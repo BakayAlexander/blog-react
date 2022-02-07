@@ -16,3 +16,5 @@
 @import url('./blocks/card/__pic/card__pic.css');
 @import url('./blocks/card/__title/card__title.css');
 @import url('./blocks/card/__subtitile/card__subtitle.css');
+
+@import url('./blocks/contact-button/contact-button.css');

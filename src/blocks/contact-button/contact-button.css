@@ -1,0 +1,37 @@
+.contact-button {
+  background-color: rgba(112, 78, 14, 0.8);
+  border: none;
+  color: #ffffff;
+  outline: none;
+  padding: 12px 40px 10px;
+  position: relative;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.contact-button:before,
+.contact-button:after {
+  border: 0 solid transparent;
+  transition: all 0.3s;
+  content: '';
+  height: 0;
+  position: absolute;
+  width: 24px;
+}
+
+.contact-button:before {
+  border-top: 2px solid rgba(112, 78, 14, 0.8);
+  right: 0;
+  top: -4px;
+}
+
+.contact-button:after {
+  border-bottom: 2px solid rgba(112, 78, 14, 0.8);
+  bottom: -4px;
+  left: 0;
+}
+
+.contact-button:hover:before,
+.contact-button:hover:after {
+  width: 100%;
+}

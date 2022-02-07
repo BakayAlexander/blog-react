@@ -8,6 +8,7 @@
   animation: typing 5s steps(45) infinite;
   white-space: nowrap;
   overflow: hidden;
+  margin: 0;
 }
 
 .typewriter-effect:after {
