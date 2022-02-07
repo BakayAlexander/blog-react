@@ -7,3 +7,12 @@
 @import url('./blocks/home/__title/home__title.css');
 @import url('./blocks/home/__subtitle/home__subtitle.css');
 @import url('./blocks/typewriter-effect/typewriter-effect.css');
+
+@import url('./blocks/about/about.css');
+@import url('./blocks/about/__title/about__title.css');
+@import url('./blocks/about/__subtitile/about__subtitle.css');
+@import url('./blocks/cards/cards.css');
+@import url('./blocks/card/card.css');
+@import url('./blocks/card/__pic/card__pic.css');
+@import url('./blocks/card/__title/card__title.css');
+@import url('./blocks/card/__subtitile/card__subtitle.css');

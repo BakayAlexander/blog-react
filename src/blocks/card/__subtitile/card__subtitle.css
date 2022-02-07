@@ -1,0 +1,8 @@
+.card__subtitle {
+  margin: 0;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding-top: 5px;
+  padding-left: 70px;
+  letter-spacing: 2px;
+}
