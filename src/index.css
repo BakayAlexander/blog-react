@@ -18,3 +18,12 @@
 @import url('./blocks/card/__subtitile/card__subtitle.css');
 
 @import url('./blocks/contact-button/contact-button.css');
+
+@import url('./blocks/blog/blog.css');
+
+@import url('./blocks/blog-card/blog-card.css');
+@import url('./blocks/blog-card/__date/blog-card__date.css');
+@import url('./blocks/blog-card/__text/blog-card__text.css');
+@import url('./blocks/blog-card/__theme-container/blog-card__theme-container.css');
+@import url('./blocks/blog-card/__theme-title/blog-card__theme-title.css');
+@import url('./blocks/blog-card/__title/blog-card__title.css');

@@ -3,7 +3,7 @@ import CardForBlog from './CardForBlog';
 
 function Blog() {
   return (
-    <div>
+    <div className="blog">
       <CardForBlog />
     </div>
   );
