@@ -1,0 +1,6 @@
+.page {
+  font-family: 'Inter', Arial, sans-serif;
+  color: rgb(0, 0, 0);
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
