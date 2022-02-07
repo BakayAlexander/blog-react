@@ -1,6 +1,7 @@
 import React from 'react';
 
-function CardForBlog() {
+function CardForBlog(props) {
+  console.log(props);
   return (
     <div className="blog-card">
       <h2 className="blog-card__title">Повседневная практика</h2>
@@ -9,10 +10,7 @@ function CardForBlog() {
         <p style={{ margin: '0' }}>&bull;</p>
         <p className="blog-card__date">{new Date().getFullYear()}</p>
       </div>
-      <p className="blog-card__text">
-        Cillum minim nulla enim nisi tempor incididunt pariatur duis ullamco qui. Consequat eiusmod cupidatat qui non et
-        in officia. Lorem anim commodo nulla tempor non.
-      </p>
+      <p className="blog-card__text">{props.chapterName}</p>
     </div>
   );
 }

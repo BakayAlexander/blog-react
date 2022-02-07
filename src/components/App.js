@@ -5,7 +5,6 @@ import api from '../utils/api';
 import Blog from './Blog';
 
 function App() {
-  // api.getLordOfTheRingsQoute().then((data) => console.log(data.docs));
   return (
     <div className="page">
       <Switch>

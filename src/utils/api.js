@@ -1,3 +1,4 @@
+// https://the-one-api.dev/documentation
 export class Api {
   constructor(config) {
     this._url = config.url;
@@ -12,8 +13,10 @@ export class Api {
     return Promise.reject(res.status);
   };
 
+  // /quote?limit=6
+
   getLordOfTheRingsQoute() {
-    return fetch(`${this._url}/quote?limit=30`, {
+    return fetch(`${this._url}/chapter?limit=7`, {
       headers: this._headers,
     }).then((res) => {
       return this._prepareDate(res);
