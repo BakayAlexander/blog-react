@@ -5,3 +5,13 @@
   background-color: transparent;
   line-height: 20px;
 }
+
+.contact__input:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 768px) {
+  .contact__input {
+    margin: 0 0 20px 0;
+  }
+}

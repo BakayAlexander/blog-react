@@ -3,3 +3,9 @@
   max-width: 40%;
   letter-spacing: 1px;
 }
+
+@media screen and (max-width: 768px) {
+  .contact__subtitle {
+    max-width: 80%;
+  }
+}
