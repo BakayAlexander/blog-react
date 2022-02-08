@@ -1,9 +1,11 @@
 import React from 'react';
+import NavBar from './NavBar';
 import Typewriter from './Typewriter';
 
 function Home() {
   return (
     <div className="home">
+      <NavBar />
       <h1
         className="home__title
   "

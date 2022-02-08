@@ -1,12 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import solution1 from '../images/solution1.svg';
 import solution2 from '../images/solution2.svg';
 import solution3 from '../images/solution3.svg';
-import ContactButton from './ContactButton';
+import Button from './Button';
+import NavBar from './NavBar';
 
 function About() {
   return (
     <section className="about">
+      <NavBar />
       <h2 className="about__title">So what can I do for you?</h2>
       <p className="about__subtitle">
         Here will be a text with a couple of inspiring notes! And maybe some quotes from important people.
@@ -28,7 +31,9 @@ function About() {
           <p className="card__subtitle">...for improve your data</p>
         </li>
       </ul>
-      <ContactButton>Contact me</ContactButton>
+      <Link to="/contact">
+        <Button type={'button'}>Contact me</Button>
+      </Link>
     </section>
   );
 }

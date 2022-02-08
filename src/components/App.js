@@ -4,6 +4,7 @@ import Home from './Home';
 import api from '../utils/api';
 import Blog from './Blog';
 import Contact from './Contact';
+import NotFound from './NotFound';
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
         </Route>
         <Route exact path="/contact">
           <Contact />
+        </Route>
+        <Route exact path="*">
+          <NotFound />
         </Route>
       </Switch>
     </div>

@@ -3,6 +3,11 @@
 
 @import url('./blocks/page/page.css');
 
+@import url('./blocks/menu/menu.css');
+@import url('./blocks/menu/__link/menu__link.css');
+@import url('./blocks/menu/__link/_active/menu__link_active.css');
+@import url('./blocks/menu/__container/menu__container.css');
+
 @import url('./blocks/home/home.css');
 @import url('./blocks/home/__title/home__title.css');
 @import url('./blocks/home/__subtitle/home__subtitle.css');
@@ -30,9 +35,14 @@
 @import url('./blocks/blog-card/__link/blog-card__link.css');
 
 @import url('./blocks/contact/contact.css');
+@import url('./blocks/contact/__container/contact__container.css');
 @import url('./blocks/contact/__form/contact__form.css');
 @import url('./blocks/contact/__form/contact__form.css');
 @import url('./blocks/contact/__input/contact__input.css');
 @import url('./blocks/contact/__inputs-container/contact__inputs-container.css');
 @import url('./blocks/contact/__subtitle/contact__subtitle.css');
 @import url('./blocks/contact/__title/contact__title.css');
+
+@import url('./blocks/not-found/not-found.css');
+@import url('./blocks/not-found/__link/not-found__link.css');
+@import url('./blocks/not-found/__title/not-found__title.css');

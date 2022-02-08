@@ -1,6 +1,6 @@
 import React from 'react';
 
-function ContactButton(props) {
+function Button(props) {
   return (
     <button className="contact-button" type={props.type}>
       {props.children}
@@ -8,4 +8,4 @@ function ContactButton(props) {
   );
 }
 
-export default ContactButton;
+export default Button;

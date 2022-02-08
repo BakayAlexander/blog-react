@@ -1,0 +1,39 @@
+.menu__link {
+  display: inline-block;
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0 10px;
+  transition: all 0.5s;
+  position: relative;
+}
+
+.menu__link::before {
+  transition: all 0.5s;
+}
+
+.menu__link::after {
+  transition: all 0.5s;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #333;
+  height: 1px;
+}
+
+.menu__link:hover {
+  color: #555;
+}
+
+.menu__link:hover::after {
+  width: 100%;
+}
