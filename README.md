@@ -16,4 +16,4 @@ This is pet-project made by junior frontend developer Alexander Bakay. It's a ba
 
 ## 🚀 GitHub Pages link
 
-https://bakayalexander.github.io/blog-react/
+https://bakayalexander.github.io/blog-react
