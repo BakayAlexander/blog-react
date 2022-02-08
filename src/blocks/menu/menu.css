@@ -1,0 +1,15 @@
+.menu {
+  list-style: none;
+  text-align: center;
+  display: flex;
+  position: absolute;
+  top: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .menu {
+    max-width: 90%;
+    /* top: 0;
+    flex-direction: column; */
+  }
+}

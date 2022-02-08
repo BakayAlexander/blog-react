@@ -1,0 +1,6 @@
+.blog-card__theme-container {
+  display: flex;
+  text-transform: uppercase;
+  margin-top: 15px;
+  font-size: 16px;
+}

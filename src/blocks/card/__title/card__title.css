@@ -1,0 +1,13 @@
+.card__title {
+  margin: 0;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-top: 40px;
+  letter-spacing: 2px;
+}
+
+@media screen and (max-width: 1420px) {
+  .card__title {
+    padding-right: 0;
+  }
+}

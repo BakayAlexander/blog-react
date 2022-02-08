@@ -1,0 +1,17 @@
+.contact__input {
+  margin-right: 30px;
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: transparent;
+  line-height: 20px;
+}
+
+.contact__input:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 768px) {
+  .contact__input {
+    margin: 0 0 20px 0;
+  }
+}

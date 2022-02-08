@@ -1,13 +1,48 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('./vendor/fonts/fonts.css');
+@import url('./vendor/normalize.css');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+@import url('./blocks/page/page.css');
+
+@import url('./blocks/menu/menu.css');
+@import url('./blocks/menu/__link/menu__link.css');
+@import url('./blocks/menu/__link/_active/menu__link_active.css');
+@import url('./blocks/menu/__container/menu__container.css');
+
+@import url('./blocks/home/home.css');
+@import url('./blocks/home/__title/home__title.css');
+@import url('./blocks/home/__subtitle/home__subtitle.css');
+@import url('./blocks/typewriter-effect/typewriter-effect.css');
+
+@import url('./blocks/about/about.css');
+@import url('./blocks/about/__title/about__title.css');
+@import url('./blocks/about/__subtitile/about__subtitle.css');
+@import url('./blocks/cards/cards.css');
+@import url('./blocks/card/card.css');
+@import url('./blocks/card/__pic/card__pic.css');
+@import url('./blocks/card/__title/card__title.css');
+@import url('./blocks/card/__subtitile/card__subtitle.css');
+
+@import url('./blocks/contact-button/contact-button.css');
+
+@import url('./blocks/blog/blog.css');
+
+@import url('./blocks/blog-card/blog-card.css');
+@import url('./blocks/blog-card/__date/blog-card__date.css');
+@import url('./blocks/blog-card/__text/blog-card__text.css');
+@import url('./blocks/blog-card/__theme-container/blog-card__theme-container.css');
+@import url('./blocks/blog-card/__theme-title/blog-card__theme-title.css');
+@import url('./blocks/blog-card/__title/blog-card__title.css');
+@import url('./blocks/blog-card/__link/blog-card__link.css');
+
+@import url('./blocks/contact/contact.css');
+@import url('./blocks/contact/__container/contact__container.css');
+@import url('./blocks/contact/__form/contact__form.css');
+@import url('./blocks/contact/__form/contact__form.css');
+@import url('./blocks/contact/__input/contact__input.css');
+@import url('./blocks/contact/__inputs-container/contact__inputs-container.css');
+@import url('./blocks/contact/__subtitle/contact__subtitle.css');
+@import url('./blocks/contact/__title/contact__title.css');
+
+@import url('./blocks/not-found/not-found.css');
+@import url('./blocks/not-found/__link/not-found__link.css');
+@import url('./blocks/not-found/__title/not-found__title.css');

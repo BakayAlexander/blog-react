@@ -1,0 +1,12 @@
+.contact__title {
+  margin: 0;
+  max-width: 50%;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+  .contact__title {
+    max-width: 90%;
+  }
+}

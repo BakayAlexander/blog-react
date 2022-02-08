@@ -1,0 +1,13 @@
+.contact__inputs-container {
+  border: none;
+  margin: 0 0 70px 0;
+  padding: 0;
+  display: flex;
+  width: 60%;
+}
+
+@media screen and (max-width: 768px) {
+  .contact__inputs-container {
+    flex-direction: column;
+  }
+}
