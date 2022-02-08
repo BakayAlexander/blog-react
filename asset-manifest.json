@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/blog-react/static/css/main.9571126a.css",
+    "main.js": "/blog-react/static/js/main.c7f41911.js",
+    "static/js/787.ce43ad27.chunk.js": "/blog-react/static/js/787.ce43ad27.chunk.js",
+    "static/media/home_pic.jpg": "/blog-react/static/media/home_pic.4d46516d77671afa71fb.jpg",
+    "static/media/Inter-Bold.woff": "/blog-react/static/media/Inter-Bold.93c1301bd9f486c573b3.woff",
+    "static/media/Inter-Black.woff": "/blog-react/static/media/Inter-Black.c6938660eec019fefd68.woff",
+    "static/media/Inter-Regular.woff": "/blog-react/static/media/Inter-Regular.8c206db99195777c6769.woff",
+    "static/media/Inter-Bold.woff2": "/blog-react/static/media/Inter-Bold.ec64ea577b0349e055ad.woff2",
+    "static/media/Inter-Black.woff2": "/blog-react/static/media/Inter-Black.15ca31c0a2a68f76d2d1.woff2",
+    "static/media/Inter-Regular.woff2": "/blog-react/static/media/Inter-Regular.c8ba52b05a9ef10f4758.woff2",
+    "static/media/solution2.svg": "/blog-react/static/media/solution2.6892ad18ae277d596dc33747bb477534.svg",
+    "static/media/solution1.svg": "/blog-react/static/media/solution1.cb5330da886d8bc33b15cd24250eeee4.svg",
+    "static/media/solution3.svg": "/blog-react/static/media/solution3.a83cde4500b24cd6827507e35c22fa7d.svg",
+    "index.html": "/blog-react/index.html",
+    "main.9571126a.css.map": "/blog-react/static/css/main.9571126a.css.map",
+    "main.c7f41911.js.map": "/blog-react/static/js/main.c7f41911.js.map",
+    "787.ce43ad27.chunk.js.map": "/blog-react/static/js/787.ce43ad27.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9571126a.css",
+    "static/js/main.c7f41911.js"
+  ]
+}
