@@ -1,0 +1,8 @@
+.blog-card__link {
+  text-decoration: none;
+  color: rgba(112, 78, 14, 0.9);
+  cursor: pointer;
+  margin-top: 15px;
+  font-size: 15px;
+  text-transform: uppercase;
+}

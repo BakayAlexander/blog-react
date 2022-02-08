@@ -14,9 +14,10 @@ export class Api {
   };
 
   // /quote?limit=6
+  // /chapter?limit=4
 
   getLordOfTheRingsQoute() {
-    return fetch(`${this._url}/chapter?limit=7`, {
+    return fetch(`${this._url}/character/?limit=4`, {
       headers: this._headers,
     }).then((res) => {
       return this._prepareDate(res);

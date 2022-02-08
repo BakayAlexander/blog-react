@@ -12,7 +12,7 @@ function Blog() {
       })
       .catch((err) => alert(err));
   }, []);
-  console.log(quotes);
+
   return (
     <div className="blog">
       {quotes.map(({ _id, ...props }) => (

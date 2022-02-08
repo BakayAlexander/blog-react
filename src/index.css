@@ -27,3 +27,12 @@
 @import url('./blocks/blog-card/__theme-container/blog-card__theme-container.css');
 @import url('./blocks/blog-card/__theme-title/blog-card__theme-title.css');
 @import url('./blocks/blog-card/__title/blog-card__title.css');
+@import url('./blocks/blog-card/__link/blog-card__link.css');
+
+@import url('./blocks/contact/contact.css');
+@import url('./blocks/contact/__form/contact__form.css');
+@import url('./blocks/contact/__form/contact__form.css');
+@import url('./blocks/contact/__input/contact__input.css');
+@import url('./blocks/contact/__inputs-container/contact__inputs-container.css');
+@import url('./blocks/contact/__subtitle/contact__subtitle.css');
+@import url('./blocks/contact/__title/contact__title.css');

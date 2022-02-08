@@ -3,6 +3,7 @@ import About from './About';
 import Home from './Home';
 import api from '../utils/api';
 import Blog from './Blog';
+import Conact from './Conact';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       </Switch>
       <About />
       <Blog />
+      <Conact />
     </div>
   );
 }
