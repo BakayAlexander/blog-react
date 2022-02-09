@@ -6,11 +6,11 @@ function NotFound() {
   return (
     <div className="not-found">
       <p className="not-found__title">Sorry, but this page doesn't exist.</p>
-      <Link className="not-found__link" to="/">
+      <Link to="/">
         <Button>Go home</Button>
       </Link>
     </div>
   );
 }
 
-export default NotFound;
+export default React.memo(NotFound);

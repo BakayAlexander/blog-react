@@ -1,7 +1,6 @@
 import React from 'react';
 
 function CardForBlog(props) {
-  console.log(props);
   return (
     <>
       <div className="blog-card">
@@ -33,4 +32,4 @@ function CardForBlog(props) {
   );
 }
 
-export default CardForBlog;
+export default React.memo(CardForBlog);

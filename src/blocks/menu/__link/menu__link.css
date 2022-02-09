@@ -14,8 +14,6 @@
 @media screen and (max-width: 500px) {
   .menu__link {
     padding: 3px;
-    /* top: 0;
-    flex-direction: column; */
   }
 }
 
@@ -25,7 +23,6 @@
 
 .menu__link::after {
   transition: all 0.5s;
-
   position: absolute;
   bottom: 0;
   left: 0;

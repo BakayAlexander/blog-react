@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from './NavBar';
-import Typewriter from './Typewriter';
+import TypeWriter from './TypeWriter';
 
 function Home() {
   return (
@@ -12,10 +12,9 @@ function Home() {
       >
         Welcome
       </h1>
-      {/* <p className="home__subtitle">That is a small test blog made by Alexander Bakay</p> */}
-      <Typewriter>Test blog by Alexander Bakay</Typewriter>
+      <TypeWriter>Test blog by Alexander Bakay</TypeWriter>
     </div>
   );
 }
 
-export default Home;
+export default React.memo(Home);

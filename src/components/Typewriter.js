@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Typewriter(props) {
+function TypeWriter(props) {
   return (
     <div className="typewriter-effect home__subtitle">
       <p className="text" id="typewriter-text">
@@ -10,4 +10,4 @@ function Typewriter(props) {
   );
 }
 
-export default Typewriter;
+export default React.memo(TypeWriter);
