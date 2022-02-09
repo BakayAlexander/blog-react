@@ -23,7 +23,7 @@ function CardForBlog(props) {
           aliqua culpa ipsum do non ipsum est. Anim ex deserunt tempor id sunt enim exercitation. Ut id fugiat consequat
           exercitation labore. Consectetur ut culpa qui velit aliquip sit in ad mollit ad enim est mollit. Ipsum
           cupidatat enim qui tempor. Velit consectetur ex sit tempor eu occaecat non dolore eiusmod Lorem aliqua. Eu
-          dolor pariatur pariatur officia veniam.
+          dolor pariatur pariatur officia veniam. Eu dolor pariatur pariatur officia veniam.
         </p>
         <a className="blog-card__link" href={props.wikiUrl} target={'_blank'} rel={'noreferrer'}>
           Read more &#8594;
