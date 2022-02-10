@@ -5,6 +5,7 @@ import Blog from './Blog';
 import Contact from './Contact';
 import NotFound from './NotFound';
 import { BrowserRouter, Redirect } from 'react-router-dom';
+import NavBar from './NavBar';
 
 function App() {
   return (
