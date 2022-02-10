@@ -4,28 +4,22 @@ import Home from './Home';
 import Blog from './Blog';
 import Contact from './Contact';
 import NotFound from './NotFound';
+import { BrowserRouter, Redirect } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="page">
-      <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route exact path="/about">
-          <About />
-        </Route>
-        <Route exact path="/blog">
-          <Blog />
-        </Route>
-        <Route exact path="/contact">
-          <Contact />
-        </Route>
-        <Route path="*">
-          <NotFound />
-        </Route>
-      </Switch>
-    </div>
+    <BrowserRouter>
+      <div className="page">
+        <Switch>
+          <Route exact path="/blog-react" component={() => <Redirect to="/" />} />
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/blog" component={Blog} />
+          <Route path="/contact" component={Contact} />
+          <Route exact path="*" component={NotFound} />
+        </Switch>
+      </div>
+    </BrowserRouter>
   );
 }
 
