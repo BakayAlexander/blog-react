@@ -12,11 +12,10 @@ function App() {
     <BrowserRouter>
       <div className="page">
         <Switch>
-          <Route exact path="/blog-react" component={() => <Redirect to="/" />} />
-          <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/blog" component={Blog} />
-          <Route path="/contact" component={Contact} />
+          <Route exact path={process.env.PUBLIC_URL + '/'} component={Home} />
+          <Route exact path={process.env.PUBLIC_URL + '/about'} component={About} />
+          <Route exact path={process.env.PUBLIC_URL + '/blog'} component={Blog} />
+          <Route exact path={process.env.PUBLIC_URL + '/contact'} component={Contact} />
           <Route exact path="*" component={NotFound} />
         </Switch>
       </div>
