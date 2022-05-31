@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from './NavBar';
-import TypeWriter from './TypeWriter';
+import TypeWriter from './Typewriter';
 
 function Home() {
 	return (
